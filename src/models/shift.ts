@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import { shiftRouter } from '../routes/shift';
 
-
 interface IShift {
     name: string,
     date: number,
