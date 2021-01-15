@@ -31,5 +31,5 @@ app.use(shiftRouter)
 
 
 app.listen(port, () => {
-    console.log('server is listening on port 9000')
+    console.log('server is listening at '+port)
 })
