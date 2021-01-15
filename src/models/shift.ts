@@ -36,4 +36,6 @@ shiftSchema.statics.build = (attr: IShift) => {
 
 const Shift = mongoose.model<any, shiftModelInterface>('Shift', shiftSchema)
 
+
+// module.exports = Shift
 export { Shift }
